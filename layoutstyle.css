@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+.toplayer{
+background-color: rgb(213,232,212);
+height:150pt;
+width:100%;
+border: 1pt solid rgb(197,220,184);
+}
+.toplayer a{
+    margin-left: 5pt;
+    margin-right: 5pt;
+     
+}
+.toplayer img{
+    width: 100pt;
+    height: 50pt ;
+}
+.menu{
+    float: right;
+    text-align: center;
+    justify-content: center;
+    margin:30pt;
+    font-size:16pt;
+
+}
+.one-third{
+    float:left;
+    width:33.33%;
+}
+.logo{
+    float:left;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10pt;
+    margin: 20pt;
+}
+.header{
+    text-align: center;
+    margin: 30pt;
+}
+.leftlayer{
+    background-color: rgb(255,242,204);
+    border: 1pt solid rgb(255,184,90);
+    float: left;
+    min-height:500pt; 
+    width:25%;
+}
+.leftsidebar{
+    margin: 15pt;
+    font-weight: 900;
+}
+.leftsidebar li{
+    margin:5pt;
+    font-size: 16pt;
+}
+.contentwrap{
+    width : 50%;
+    float: left;
+}
+.contentlayer{
+    background-color: rgb(245,245,245);
+    border: 1pt solid rgb(104,104,104);
+     
+   font-weight: 900;
+   padding:5pt;
+   margin: 5pt;
+
+}
+.rightlayer{
+    background-color: rgb(248, 206,204);
+    border: 1pt solid rgb(186,88,84);
+    float: left;
+    width:25%;
+    min-height:500pt; 
+  
+}
+.rightsidecontent{
+    margin: 15pt;
+    padding: 15pt;
+    background-color: rgb(225,213,231);
+    border: 1pt solid rgb(196,172,202)
+}
+input{
+    padding: 5pt;
+    margin: 5pt;
+    width: 97%;
+    border-radius: 6pt;
+    border: 1px solid black;
+    height: 30pt;
+    outline:none;
+}
+.footerlayer{
+    background-color: rgb(225,213,231);
+    border:  1pt solid rgb(198,178,206);
+    height:200pt;
+    padding: 15pt;
+    font-size: large;
+}
+.bodywarp{
+    min-height:600pt;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .login{
+      float: right;
+      border-radius: 5pt;
+      cursor: pointer;
+      text-align: center;
+      font-size: 16pt;
+      border: 1px solid black;
+      padding: 5pt;
+      
+      margin-top:5pt;
+      
+  }
